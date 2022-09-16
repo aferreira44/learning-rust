@@ -18,3 +18,28 @@ Basically it frees up memory that isn’t used anymore, that is, memory that not
 ## #[derive(Debug)]
 
 ## Traits
+
+https://blog.thoughtram.io/ownership-in-rust/
+
+## Stack and Heap
+
+- A stack, where values are stored in order as they come in, and removed in the opposite order (which are very fast operations)
+- A heap is more like a tree structure that requires a bit more computational effort to read and write data.
+
+https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html
+
+## [Box Pointers](https://doc.rust-lang.org/book/ch15-02-deref.html?highlight=Box%3CT%3E#defining-our-own-smart-pointer)
+
+## Moves and Borrowing
+
+https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html
+
+https://willcrichton.net/notes/rust-memory-safety/
+
+https://blog.thoughtram.io/references-in-rust/
+
+## deref coercing
+
+https://blog.thoughtram.io/string-vs-str-in-rust/
+
+
